@@ -1,0 +1,21 @@
+Problem description: Making an automatic differentiation program for algebraic expressions. 
+Require an infix expression as input consist of following elements:
+
+Operators( sorting by priority ):
+Bracket ( )
+Power	^
+Multiplication & division 	* /
+Addition & subtraction	+ -
+Argument separator( used in function) ,
+
+Mathematical function (bonus)
+ln(A) log(A,B)	Logarithm.  ln(A) represents the natural logarithm of A (based on e), and log(A, B) represents the logarithm of B based on A.
+cos(A) sin(A) tan(A)	Basic trigonometric functions.
+pow(A,B) exp(A)	exponential functions. pow(A, B) represents the B power of A, and exp(A) represents the natural exponential of A (A power of e).
+
+Operand
+Literal constant	2 3 0 -5	Just consider integers consisting of pure numbers and minus signs.
+variable	x cosval ab	Identifiers (strings of lowercase English letters) except those “mathematical functions”.
+
+Output: Request the program output the derivative of each variable inputted, arranged by the lexicographical order of them. It is only necessary to ensure that the output expression is identical to the correct derivative function, and no simplification or expansion of the expression is required.
+
