@@ -1,0 +1,1 @@
+Problem description: Given an N×N integer matrix (aij)N×N, find the maximum value of ∑(k=I,m)∑(l=j,n)akl for all 1≤i≤m≤N and 1≤j≤n≤N. For convenience, the maximum submatrix sum is 0 if all the integers are negative.
